@@ -7,6 +7,7 @@ import java.util.List;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-
+        PersonController pc = new PersonController();
+        pc.readPerson(1);
     }
 }
